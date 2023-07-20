@@ -33,8 +33,13 @@ $$\\ket{x} = x_1\\ket{e_1}+ x_2\\ket{e_2}+x_3\\ket{e_3}$$
 So let's generalize this notation to any *N*-dimension vector
 $$\\ket{\\psi} = \\psi_1\\ket{1}+ \\psi_2\\ket{2}+\\psi_3\\ket{3}+...+\\psi_N\\ket{N}$$
 where $$Dim\ \\psi = N$$
-This is considered a state $\\ket{\\psi}$ that is a linear combination of all possible states in a given space with probability amplitude $P$ of finding particle in state $i$  $P_i=|\\psi_i|^2$
+fron now on, we will consider $\\ket{\\psi}$ a state that is a linear combination of all possible states in a given measurement space with probability amplitude $P$ of finding particle in state $i$  $P_i=|\\psi_i|^2$
 therefore if $\\ket{\\psi}$ and $\\ket{\\delta}$ are states, then $\\alpha\\ket{\psi} + \\beta\\ket{\\delta}$ are also states hence: $$\\ket{\\psi} = \\sum_{k=1}^N \\psi_k \\ket{K} =  \\sum_{k=1}^N \\Delta \frac{\\psi_k}{\\sqrt\\Delta}\frac{\\ket{k}}{\\sqrt\\Delta}=\\int_0^l dx \\psi(x)\\cdot\\ket{x}$$
-where $\\psi(x)$ is wave function and $\\ket{x}$ is element in base of states space of particle
+where $\\psi(x)$ is wave function and $\\ket{x}$ is element in base of states space of particle.
+Having above in mind $\langle{K}|{K}\rangle  = 1$ and $\langle{K}|{L}\rangle = \\delta_kl$
+## 2. Probability of measuring particle in state $\\ket{\psi_2}$
+We need to first answer question: what is measurement? By measurement we mean projection opeartion that when applied to a state projects one and only one state from possible spectrum. 
+Considering location operation, where we want to measure location of particle we use operatior: $\\int \ dx \ {\psi}^\ast_2(x)\psi_1(x)$
+
 
 
