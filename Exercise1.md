@@ -1,7 +1,7 @@
 *This short paper is a project that concludes my first part of IBM Quantum Explorers 2023. I will try to utilize my University knowledge and things that I have learned during this course to present Mathematical foundations of Qbits. I'm going to skip many important topics, for now, but those notes will be extended in time. 
 I am opened to any feedback about my work. In order to communicate, please open issue.*
 
-# 101 Math for Qbits
+# 101 Math and physics needed to understand how quantum computer works.
 
 ## 0. Space definition
 ### Definition 1: 
@@ -22,7 +22,8 @@ above need to also satisfy few conditions:
   ### Definition 2:
   Set of numbers *a,b,...* is called field over which linear space is defined
   
-Let's imagine set $\\ket{1},\\ket{3},...\\ket{N}$ and call it linearly independent if $$\sum_{i=1}^{N} a_i\\ket{i} = \\ket{0}$$ is true.
+Let's imagine set $\\ket{1},\\ket{3},...\\ket{N}$ and call it linearly independent if $$\sum_{i=1}^{N} a_i\\ket{i} = \\ket{0}$$ is satisfied only for trivial case, ahere all *a_n* are zero. This implies, that none of the vectors from set of linearly independent cannot be represented as combination of others from this set.
+
 
 Now let's imagine that we have *N* very small particle detectors setup in the straight line. We send an electron along this line and observe which detector shown a spike. Let's say it was detector *K* that observed our electron. This means that our electron was in state $\\ket{K}$, where K=1,2,...N is base of state space. Note that is detector K observed electron it means that no other did it.
 ## 1. General rule of superposition
